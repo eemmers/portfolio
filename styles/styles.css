@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Roboto&display=swap');
+
 h1 {
   color: #00FFFF;
   border-style: solid;
   border-width: 1px;
   border-color: #FF0000;
+  font-family: 'Bitter', serif;
+  font-weight: 500;
 }
 
 a[href="index.html"]{
@@ -20,6 +24,8 @@ h2 {
   border-style: dashed;
   border-width: 1px;
   border-color: #800000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 p {
@@ -50,3 +56,7 @@ img {
   border-width: 4px;
   width: 10%;
 }
+
+.fa-smile {color: #0000A0;}
+
+.fa-mitten {color: #A52A2A;}
