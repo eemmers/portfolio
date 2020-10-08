@@ -9,6 +9,14 @@ h1 {
   font-weight: 500;
 }
 
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 a[href="index.html"]{
   background: #FFFF00;
   padding: 1rem;
