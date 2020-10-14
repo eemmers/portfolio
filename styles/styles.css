@@ -7,7 +7,7 @@ h1 {
   border-color: #FF0000;
   font-family: 'Bitter', serif;
   font-weight: 500;
-}
+  }
 
 .main-nav {
   display: flex;
@@ -38,11 +38,29 @@ h2 {
 
 p {
   color: #FF0000;
-}
+  }
 
 body {
   background-color: #808000;
+  }
+
+section a {
+  text-decoration: none;
+  color: #00FFFF;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  transition-delay: 1s;
+  }
+
+section a:visited {
+  color: #FF0000;
 }
+
+section a:hover {
+  text-decoration: underline;
+  font-size: 200%;
+  }
 
 .orange-text {
   color: #FFA500;
@@ -52,10 +70,15 @@ body {
 .important {
   color: #800080;
   font-weight: bold;
+  transition-property: font-size;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
 }
 
 .important:hover {
 background-color: #008000;
+font-size: 150%;
 }
 
 img {
@@ -68,3 +91,16 @@ img {
 .fa-smile {color: #0000A0;}
 
 .fa-mitten {color: #A52A2A;}
+
+footer p {
+  transition-property: font-size;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+  transition-delay: 2s;
+  }
+
+footer p:hover {
+  color: #FFC0CB;
+  font-size: 200%;
+  font-family: Tahoma, Geneva, sans-serif;
+}
